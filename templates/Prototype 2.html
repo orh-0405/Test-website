@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <h1>Welcome to Car-eer Highway</h1>
+    <div class="navbar">
+      <a href="{{ url_for('website') }}">Home</a>
+      <a href="{{ url_for('about') }}">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">ECG
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Learn more about University courses!</a>
+            <a href="{{ url_for('start') }}">Take the Car-eer Survey!</a>
+            <a href="#">Chat with Profs!</a>
+          </div>
+        </div>
+    </div>
+
+    <p>
+      <marquee scrollamount="8">This website is the definition of ECG, but accessible. "Car-eer Highway" is a CID4+ Project brought to you by Ong Rui Hong (4E), Xiao Minjie (4C) and Lee Jun Yin (4H).</marquee>
+    </p>  
+
+    <section>
+      <h2>Home information</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis labore, ratione deserunt perferendis aspernatur praesentium nisi, accusantium suscipit quisquam quos laborum vel quas saepe, ab dolorum reprehenderit quaerat asperiores. Porro!</p>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis labore, ratione deserunt perferendis aspernatur praesentium nisi, accusantium suscipit quisquam quos laborum vel quas saepe, ab dolorum reprehenderit quaerat asperiores. Porro!</p>
+    </section>
+</body>
+</html>
