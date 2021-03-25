@@ -91,3 +91,9 @@ body {
     background-size: cover;
     background-blend-mode: lighten;
 }
+
+select {
+    padding: 0;
+    border: 0;
+}
+
